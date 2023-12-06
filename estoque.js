@@ -9,4 +9,6 @@ let estoque = {
     ],
 };
 
-estoque.joao[0].tipo
+export function getEstoque(){
+    return structuredClone(estoque);
+}

@@ -14,6 +14,18 @@ function leFormulario(event){
     const destino = document.entrada.destino.value
 
     transacaoNoEstoque(origem, destino, fruta, quantidade)
+    atualizaTela()
 
     console.log(`fruta: ${fruta} qtd: ${quantidade}`);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('botaoLimparLista').addEventListener('click', () => {
+        limpaEstoque()
+        atualizaTela()
+    })
+})
+
+function atualizaTela() {
+
 }

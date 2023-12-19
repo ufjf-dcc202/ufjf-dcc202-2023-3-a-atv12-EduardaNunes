@@ -1,12 +1,6 @@
 let estoque = {
-    'joao':[
-    {'tipo': "maca", 'qtd': 1},
-    {'tipo': "pera", 'qtd': 1},
-    ],
-    'maria':[
-    {'tipo':"maca", 'qtd': 2},
-    {'tipo':"pera", 'qtd': 4}
-    ],
+    'joao': [{'tipo': 'maca', 'quantidade': 1}],
+    'maria': [{'tipo': 'maca', 'quantidade': 2}]
 };
 
 export function getEstoque(){

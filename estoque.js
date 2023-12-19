@@ -7,6 +7,6 @@ export function getEstoque(){
     return structuredClone(estoque);
 }
 
-function limpaEstoque() {
+export function limpaEstoque() {
     estoque = {}
 }

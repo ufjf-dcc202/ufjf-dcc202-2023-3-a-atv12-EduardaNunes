@@ -60,4 +60,5 @@ export function transacaoNoEstoque(origem, destino, tipo, quantidade){
             itemOrigem.quantidade -= quantidade
         }
     }
+    return
 }

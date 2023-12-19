@@ -13,5 +13,7 @@ function leFormulario(event){
     const origem = document.entrada.origem.value
     const destino = document.entrada.destino.value
 
+    transacaoNoEstoque(origem, destino, fruta, quantidade)
+
     console.log(`fruta: ${fruta} qtd: ${quantidade}`);
 }

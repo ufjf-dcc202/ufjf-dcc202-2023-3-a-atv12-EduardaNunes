@@ -1,3 +1,5 @@
+import { getEstoque, limpaEstoque, transacaoNoEstoque } from "./estoque.js"
+
 document.entrada.addEventListener('submit', leFormulario);
 
 const olJoao = document.querySelector('#olJoao');
